@@ -141,3 +141,14 @@ img{
   font-family: 'EB Garamond';
   color: black;
 }
+.requiem{
+  width:50%;
+  height:auto;
+  position: relative;
+  left: 25%;
+
+}
+.requiem-text{
+  position: relative;
+  left: 17%;
+}
