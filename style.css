@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+body{
+  background-color: black;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.gallery-rows{
+  padding: 5%;
+}
+.gallery-center{
+  margin:auto;
+  width: 100%;
+  padding: 10%;
+
+}
+.sidenav {
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 100px; /* Stay at the top */
+  left: 0;
+  background-color: black; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  font-family: 'EB Garamond';
+}
+.sidenav a:hover {
+  color: white;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.creighton{
+  
+  position: absolute;
+  font-family: 'EB Garamond';
+  top: 8%;
+  left: 40%;
+  color:white;
+}
+.gallery-title{
+  position: absolute;
+  font-family: 'EB Garamond';
+  top: 8%;
+  left: 45%;
+  color:white;
+}
+#portfolio-author{
+  position: relative;
+  left: 15px;
+  font-family: 'EB Garamond';
+  font-size: 24px;
+  color:white;
+  box-shadow: 5px, 10px, 10px, black;
+}
+#landing-title{
+  font-family: 'EB Garamond';
+  position: relative;
+  top: 20%;
+  color: black;
+  font-size: 30px;
+}
+#landing-title-container{
+  height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+.landing-page{
+  background-color: #000000;
+  background-image: linear-gradient(90deg, #000000 0%, #ffffff 74%);
+}
+.landing-page-link:link{
+  padding: 5%;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'EB Garamond';
+}
+.resume-link:link{
+  padding: 5%;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'EB Garamond';
+}
+.resume-link{
+  color: white;
+}
+.resume-link:hover{
+  color: white;
+}
+.landing-page-link{
+  color: black;
+}
+.landing-page-link:hover{
+  color: #f1f1f1;
+}
+.landing-page-nav{
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+  
+}
+.row-sep{
+  padding: 50px;
+}
+.backbar{
+  color: black;
+}
+.info{
+  font-family: 'EB Garamond';
+  color: white;
+}
+.henry{
+  width: 75%;
+  height: auto;
+  position: relative;
+  top: 20%;
+}
+.less-padding{
+  padding:10%;
+}
+.esque-last{
+  width:50%;
+  height:auto;
+  position: relative;
+  left: 25%;
+}
+.landing-info{
+  font-family: 'EB Garamond';
+  color: black;
+}
